@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介绍</title>
+    <style>
+        body {
+            font-family: '华文楷体', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            user-select: none;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 25px; /* 添加这一行 */
+        }
+
+        iframe {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            z-index: 0;
+        }
+
+        /* 切换字体按钮样式 */
+        .switch-font-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 2;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .switch-font-button:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <iframe src="f1.html"></iframe>
+    <div class="container">
+        <h1>Campaign draft</h1>
+        <p>My name is Zhang Xuezhao. First of all, I would like to thank the teacher for giving me this opportunity to show myself. My reasons for running for the position are as follows: I can actively and proactively help others; Fourth, I have strong organizational and coordination abilities, clear thinking and accurate expression; At the same time, I also have a wide range of hobbies, such as playing chess, computers, front-end, etc. This position is a bridge between the teacher and the students, and a correspondent between the class and the school. What it represents is not honor, but a responsibility. If I am elected as the team leader, I will be a good bridge between the teacher and the students. I will be more strict with myself, set a good example, study hard, constantly improve myself, and strive to make progress and improvement in all aspects. Of course, I also have many shortcomings. Please supervise and criticize me, teacher and classmates.</p>
+        <p>Thank you all</p>
+    </div>
+
+    <!-- 添加切换语言按钮 -->
+    <a href="index.html" class="switch-font-button">English</a>
+</html>
