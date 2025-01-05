@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介绍</title>
+    <style>
+        body {
+            font-family: '华文楷体', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            user-select: none;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 25px; /* 添加这一行 */
+        }
+
+        iframe {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            z-index: 0;
+        }
+
+        /* 切换字体按钮样式 */
+        .switch-font-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 2;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .switch-font-button:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <iframe src="f1.html"></iframe>
+    <div class="container">
+        <h1>竞选稿</h1>
+        <p>我叫张学钊，首先，感谢老师给我这次展现自我的机会。我的竞选</p>
+        <p>理由有：我能积极主动地帮助他人;第四，我有较强的组织协调能</p>
+        <p>力，思路清晰、表达准确;同时，我还有着广泛的兴趣爱好，例如：</p>
+        <p>下棋、电脑、前端。ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ这个职位是老师</p>
+        <p>同学之间的一座桥，是班级与学校的通信员。它所代表的不是荣</p>
+        <p>誉，而是一份责任。如果我当选中队长，我会当好老师与同学之间</p>
+        <p>这座桥梁，我会更加严格要求自己，起好带头作用，认真学习，不</p>
+        <p>断地完善自己，争取在各个方面都有进步、有提高。当然，我也有</p>
+        <p>很多不足的地方。请老师同学监督批评。</p>
+        <p>谢谢大家</p>
+    </div>
+
+    <!-- 添加切换语言按钮 -->
+    <a href="index(English).html" class="switch-font-button">简体中文</a>
+</html>
